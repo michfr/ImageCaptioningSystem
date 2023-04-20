@@ -3,7 +3,7 @@ Beacuse i have tested the model in the form of web app for only 1 epoch trained 
 
 SETUP:
 1- Extract the File
---put the model you trained for 50 epoch in the directory it is already there of 1 epcoh replace it with the same name
+--put the model you trained for 50 epochs in the directory it is already there of 1 epoch replace it with the same name
 2- Make sure you have python 3.9 installed
 3 - run command in the extracted directory "pip install -r requirements.txt". it will take time
 4 - and then run this command "pip install en_core_web_sm-2.3.1.tar.gz"
