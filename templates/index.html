@@ -1,0 +1,75 @@
+<!-- 
+<!doctype html>
+<html>
+  <head>
+    <title>Image Caption</title>
+  </head>
+  <body>
+    <h1>Image Caption</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+      <input type="file" name="file">
+      <input type="submit" value="Predict">
+    </form>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Caption</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		body {
+			margin: 0;
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: #F8F8F8;
+		}
+
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+			color: #444444;
+			font-size: 48px;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+			padding: 20px;
+			background-color: #FFFFFF;
+			border-radius: 10px;
+			box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+		}
+
+		input[type="file"] {
+			margin-bottom: 20px;
+		}
+
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: #FFFFFF;
+			font-size: 24px;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<h1>Image Caption</h1>
+	<form action="/predict" method="post" enctype="multipart/form-data">
+		<input type="file" name="file">
+		<input type="submit" value="Predict">
+	</form>
+</body>
+</html>
